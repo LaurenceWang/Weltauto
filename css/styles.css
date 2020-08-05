@@ -526,13 +526,18 @@ p .fas,
         padding: 18px 5px;
     }
 
+    .col-lg-6.carocas-content {
+
+        padding-left: 50px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
 
     .hero-content h1 {
         padding-top: 200px;
-        font-size: 3.2rem;
+        font-size: 3.1rem;
     }
 
     .presentation .container {
@@ -540,8 +545,29 @@ p .fas,
     }
 
     .presentation .container p {
-        padding-top: 70px;
+        width: 67vw;
+        padding-top: 45px;
         padding-left: 15px;
     }
+
+    .col-lg-6.carocas-content {
+
+        padding-left: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .presentation .container p {
+        width: 180px;
+       
+    }
+
 
 }
