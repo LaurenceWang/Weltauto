@@ -19,9 +19,14 @@ img {
     max-width: 100%;
 }
 
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
 h1 {
     text-transform: uppercase;
-    font-size: 6.5rem;
     font-family: raleway;
     font-weight: 700;
 }
@@ -53,102 +58,34 @@ h2 {
     padding: 15px;
 }
 
-.menu li a { 
-   font-size: 1.25rem;
-   color: #eeeeee;
-     margin-right: 15px;
-   padding: 2px 5px; 
-   -webkit-transition: all 0.3s;
-   transition: all 0.3s;
-  
+.menu li a {
+    font-size: 1.25rem;
+    color: #eeeeee;
+    margin-right: 15px;
+    padding: 2px 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
 }
 
-.menu li a:hover{
-    text-decoration: underline; 
-    /* color: #AC2727; */
+.menu li a:hover {
+    text-decoration: underline;
+
 }
 
 .navbar-toggler {
     border-color: #444;
 }
- 
+
 .navbar-toggler:focus {
     background: none;
     outline: 0;
 }
- 
-  .navbar-toggler-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-   
-} 
- 
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
-/* .navbar-toggler{
-    border-color: white;
-    color: white;
-} */
-
-
-/* .navbar-toggler{
-    border-color: white;
-} */
-
-/* .navbar-toggler-icon{color: white;} */
-
-/* .collapse .nav-link:after {
-    content: "/";
-     margin-left: 5px;
-    margin-right: 5px;  
-    color: #eeeeee77;
 }
-
-.show .nav-link:after {
-    content: "";
-} */
-
-
-
-/* .collapse li .nav-item a:not(:last-child):after {
-    content: "/";
-    margin-left: 25px;
-    
-   color: #eeeeee77;
-   text-decoration: none;
-} */
-
-/* .menu {
-    float: right;
-    margin-right: 45px;
-}
-
-.menu li {
-    display: inline-block;
-    padding-top: 30px;
-}
-
-.menu li a {
-    font-size: 1.25rem;
-    color: #eeeeee;
-    margin-right: 18px;
-    padding: 2px 13px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.menu li:not(:last-child):after {
-    content: "/";
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #eeeeee77;
-    pointer-events: none
-}
-
-.slicknav_menu {
-    display: none;
-} */
-
-
 
 .hero-overlay {
     height: 100vh;
@@ -170,12 +107,12 @@ h2 {
 }
 
 .hero-content h1 {
+    font-size: 6.5rem;
     padding-top: 150px;
 }
 
 .separator {
-    /* display: inline-block;
-    float: right;    */
+
     width: 200px;
     height: 8px;
     background-color: #AC2727;
@@ -205,7 +142,7 @@ h6 {
     color: #fff;
     line-height: normal;
     cursor: pointer;
-    /* text-align: center; */
+
 
 }
 
@@ -216,10 +153,7 @@ h6 {
 
 }
 
-/* .wa-btn img{
-    width: 1.2rem;
-    margin-right: 8px;
-} */
+
 
 .fa-phone-alt {
     margin-right: 8px;
@@ -271,13 +205,17 @@ h6 {
 
 }
 
-.ig{
+.ig,
+.phone {
     color: inherit;
 }
 
-.ig:visited {
+.ig:visited,
+.phone:visited {
     color: inherit;
 }
+
+
 
 .fw-info-text {
     display: inline-block;
@@ -304,7 +242,7 @@ p .fas,
     border-radius: 10px;
     padding: 20px;
     margin: 60px 10px 20px 10px;
-    /* margin-bottom: 20px; */
+
 }
 
 .feature:hover {
@@ -339,8 +277,99 @@ p .fas,
     margin-top: 20px;
 }
 
+/*services*/
+
+.feature-section-service {
+    margin: 100px 0px 120px 0px;
+}
+
+
+.page-overlay {
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.page-overlay .page-content {
+    height: 40vh;
+}
+
+.page-content h1 {
+    font-size: 4.2rem;
+    color: #f1f1f1;
+}
+
+.tarif-horaire {
+    background-color: #d1d1d1ad;
+    padding: 100px 0px;
+
+}
+
+.tarif-horaire .section-title {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+
+
+/*occasion*/
+
+.no-car {
+    height: 80vh;
+}
+
+.no-car h2 {
+    margin-top: 160px;
+}
+
+/*contact*/
+
+.map-section {
+    margin-top: 50px;
+}
+
+.map {
+    width: 100%;
+    height: 60vh;
+
+}
+
+.contact-box {
+
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 60px 10px 20px 40px;
+    background-color: #ececec;
+    -webkit-box-shadow: 0px 2px 46px -30px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 46px -30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 46px -30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-wrapper {
+    text-align: center;
+}
+
+.contact-box .separator {
+
+    width: 50px;
+    height: 3px;
+    background-color: #AC2727;
+    margin-bottom: 30px;
+
+
+}
+
+
+.phone:hover {
+    color: #000000;
+}
+
+
 
 /*responsive*/
+
+
 
 @media screen and (max-width: 1200px) {
 
@@ -351,6 +380,13 @@ p .fas,
     h1 {
         font-size: 5.8rem;
     }
+
+    .contact h1, .service h1{
+
+        font-size: 3.8rem;
+
+    }
+
 
     h6 {
         font-size: 1rem;
@@ -384,6 +420,12 @@ p .fas,
 
     h1 {
         font-size: 5.2rem;
+    }
+
+    .contact h1, .service h1{
+
+        font-size: 3.5rem;
+
     }
 
     .presentation .container {
@@ -424,6 +466,11 @@ p .fas,
         padding: 0px 5px;
     }
 
+    .contact h1, .service h1{
+
+        font-size: 3.2rem;
+
+    }
 
     .feature {
 
@@ -470,14 +517,14 @@ p .fas,
         font-size: inherit;
     }
 
-    .hero-content{ 
+    .hero-content {
         margin-right: 15px;
     }
 
     .hero-content h1 {
-       
-      padding-top: 150px;
-      font-size: 3.7rem;
+
+        padding-top: 150px;
+        font-size: 3.7rem;
 
     }
 
@@ -486,14 +533,20 @@ p .fas,
         width: 68%;
     }
 
+    .contact h1, .service h1{
+
+        font-size: 3rem;
+
+    }
+
     .separator {
 
-        width: 150px;
+        width: 130px;
         height: 7px;
 
-    
+
     }
-    
+
     h2 {
         font-size: 2.4rem;
     }
@@ -506,6 +559,12 @@ p .fas,
         font-size: 1rem;
     }
 
+    .contact h1, .service h1{
+
+        font-size: 3rem;
+
+    }
+
     .presentation .container p {
         padding-top: 80px;
     }
@@ -516,7 +575,7 @@ p .fas,
     }
 
     .footer-section .container {
-      padding-left: 70px;
+        padding-left: 70px;
 
     }
 
@@ -538,6 +597,13 @@ p .fas,
     .hero-content h1 {
         padding-top: 200px;
         font-size: 3.1rem;
+    }
+
+    
+    .contact h1, .service h1{
+
+        font-size: 2.5rem;
+
     }
 
     .presentation .container {
@@ -566,7 +632,7 @@ p .fas,
 
     .presentation .container p {
         width: 180px;
-       
+
     }
 
 

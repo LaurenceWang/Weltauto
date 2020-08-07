@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 31/07/2020 17:52
+    Creation date: 07/08/2020 11:41
     */
 
     @font-face {
@@ -39,10 +39,20 @@
 
     .flaticon-wheel:before { content: "\f100"; }
 .flaticon-gear:before { content: "\f101"; }
-.flaticon-settings:before { content: "\f102"; }
-.flaticon-spray:before { content: "\f103"; }
+.flaticon-spray:before { content: "\f102"; }
+.flaticon-tools:before { content: "\f103"; }
+.flaticon-jerrycan:before { content: "\f104"; }
+.flaticon-car:before { content: "\f105"; }
+.flaticon-contact:before { content: "\f106"; }
+.flaticon-clock:before { content: "\f107"; }
+.flaticon-address:before { content: "\f108"; }
     
     $font-Flaticon-wheel: "\f100";
     $font-Flaticon-gear: "\f101";
-    $font-Flaticon-settings: "\f102";
-    $font-Flaticon-spray: "\f103";
+    $font-Flaticon-spray: "\f102";
+    $font-Flaticon-tools: "\f103";
+    $font-Flaticon-jerrycan: "\f104";
+    $font-Flaticon-car: "\f105";
+    $font-Flaticon-contact: "\f106";
+    $font-Flaticon-clock: "\f107";
+    $font-Flaticon-address: "\f108";

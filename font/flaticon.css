@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 31/07/2020 17:52
+  	Creation date: 07/08/2020 11:41
   	*/
 
 @font-face {
@@ -25,33 +25,82 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size:65px;
+        font-size: 65px;
 font-style: normal;
-/* margin-left: 20px; */
+
 }
 
 .flaticon-wheel:before { content: "\f100"; }
 .flaticon-gear:before { content: "\f101"; }
-.flaticon-settings:before { content: "\f102"; }
-.flaticon-spray:before { content: "\f103"; }
+.flaticon-spray:before { content: "\f102"; }
+.flaticon-tools:before { content: "\f103"; }
+.flaticon-jerrycan:before { content: "\f104"; }
+.flaticon-car:before { content: "\f105"; }
+.flaticon-contact:before { content: "\f106"; }
+.flaticon-clock:before { content: "\f107"; }
+.flaticon-address:before { content: "\f108"; }
 
 
-.flaticon-wheel, .flaticon-gear, .flaticon-spray {
+.flaticon-wheel, .flaticon-gear, .flaticon-spray, .flaticon-tools, .flaticon-jerrycan, .flaticon-car{
 
-display: inline-block;
-width: 110px;
-height: 110px;
-border-radius: 50%;
-background-color:#e2e2e2;
-color: #AC2727;
-margin-top: 20px;
-margin-bottom: 40px;
-padding: 5px;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color:#e2e2e2;
+  color: #AC2727;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 5px;
+  }
+
+
+  .flaticon-contact, .flaticon-clock, .flaticon-address {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: dotted 2px #AC2727;
+    color: #AC2727;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
+  }
+
+  .flaticon-contact {
+    padding-right: 7px;
+    padding-top: 7px;
+  }
+  
+  .flaticon-clock {
+    padding-top: 3px;
+  }
+
+  .flaticon-address {
+    padding-top: 1px;
+  }  
+
+
+  [class^="flaticon-contact"]:before, [class*=" flaticon-contact"]:before,
+[class^="flaticon-contact"]:after, [class*=" flaticon-contact"]:after {   
+  font-family: Flaticon;
+        font-size: 50px;
+font-style: normal;
 }
 
-/* .flaticon-wheel:hover, .flaticon-gear:hover, .flaticon-spray:hover {
+[class^="flaticon-clock"]:before, [class*=" flaticon-clock"]:before,
+[class^="flaticon-clock"]:after, [class*=" flaticon-clock"]:after {   
+  font-family: Flaticon;
+        font-size: 50px;
+font-style: normal;
+}
 
-  background-color:#d85353;
+[class^="flaticon-address"]:before, [class*=" flaticon-address"]:before,
+[class^="flaticon-address"]:after, [class*=" flaticon-address"]:after {   
+  font-family: Flaticon;
+        font-size: 50px;
+font-style: normal;
+}
+
   
-
-} */
